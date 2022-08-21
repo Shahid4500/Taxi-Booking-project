@@ -1,0 +1,67 @@
+
+.services
+{
+    width: 90%;
+    margin-top: -200px;
+}
+.services h1{
+    text-align: center;
+}
+.service-section
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-card
+{
+    width: 33%;
+}
+.card-body
+{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 5rem;
+   border-radius: 5px;
+   padding: 3rem;
+   margin-left: 1rem;
+   box-shadow: 2px 4px 80px rgba(0,0,0,0.12);
+
+}
+.card-info
+{
+    text-align: center;
+}
+.card-head-icon
+{
+    background-color: #7661E1;
+    padding: 2rem;
+    clip-path: circle();
+}
+.icon
+{
+font-size: 100px;
+color:#fff;
+}
+
+@media screen and (max-width:768px) {
+
+    .services{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    
+    .service-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .service-card{
+        width: 100%;
+    }
+}
